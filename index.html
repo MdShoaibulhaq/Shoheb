@@ -8,27 +8,34 @@
     <title>Md Shoheb</title>
     <link rel="stylesheet" href="./src/style.css">
 
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .ul{
+            margin-left: 50px;
+
+        }
+    </style>
 </head>
 
-<body>
-    <nav class="navigation container">
-        <div class="nav-brand"><a href="#">Md Shoheb</a></div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="#">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="../public/projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="../public/blogs.html">Blogs</a>
-            </li>
-        </ul>
-       
-    </nav>
+<body class="container-fluid">
+    <div class="navbar navbar-dark bg-dark navbar-expand-lg mt-2 p-8">
+        <div class="container-fluid">
+            <h2 class="navbar-brand">Shoheb</h2>
+            <button class="navbar-toggler" data-bs-target="#menuitems" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="menuitems">
+                <ul class="navbar-nav me-auto mb-2 m-lg-0 " >
+                    <li class="nav-item"><a class="nav-link">Home</a></li>
+                    <li class="nav-item"><a class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link">Blogs</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 
     <header class="hero">
         <img class="hero-img" src="./public/user.png" />
@@ -87,8 +94,9 @@
 
         </ul>
     </footer>
-
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<sript src="./node_modules/jquery/dist/jquery.js"></sript>
 </body>
 
 </html>

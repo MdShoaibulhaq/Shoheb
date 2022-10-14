@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MdShoaibulhaq/Shoheb/issues"
   },
-  "homepage": "https://github.com/MdShoaibulhaq/Shoheb#readme"
+  "homepage": "https://github.com/MdShoaibulhaq/Shoheb#readme",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
 }
